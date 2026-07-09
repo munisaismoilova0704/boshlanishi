@@ -448,37 +448,37 @@ def katta_son():
 
 # 4misol
 #
-# class ismlar:
-#     def __init__(self, munisa, elnura, gulnoza, mushtariy, sarvinoz):
-#         self.munisa = munisa
-#         self.elnura = elnura
-#         self.gulnoza = gulnoza
-#         self.mushtariy = mushtariy
-#         self.sarvinoz = sarvinoz
-#
-#     def bir(self):
-#         return self.munisa
-#
-#     def ikki(self):
-#         return self.elnura
-#
-#     def uch(self):
-#         return self.gulnoza
-#
-#     def tort(self):
-#         return self.mushtariy
-#
-#     def besh(self):
-#         return self.sarvinoz
-#
-# w = ismlar("Munisa","Elnura","Gulnora","Nozima","Bonu")
-# print(w.bir())
-#
-# # class Manzil:
-# #     def __init__(self, kocha, mahalla, tuman, viloyat):
-# #         self.kocha = kocha
-# #         self.mahalla = mahalla
-# #         self.tuman = tuman
+class ismlar:
+    def __init__(self, munisa, elnura, gulnoza, mushtariy, sarvinoz):
+        self.munisa = munisa
+        self.elnura = elnura
+        self.gulnoza = gulnoza
+        self.mushtariy = mushtariy
+        self.sarvinoz = sarvinoz
+
+    def bir(self):
+        return self.munisa
+
+    def ikki(self):
+        return self.elnura
+
+    def uch(self):
+        return self.gulnoza
+
+    def tort(self):
+        return self.mushtariy
+
+    def besh(self):
+        return self.sarvinoz
+
+w = ismlar("Munisa","Elnura","Gulnora","Nozima","Bonu")
+print(w.bir())
+
+# class Manzil:
+#     def __init__(self, kocha, mahalla, tuman, viloyat):
+#         self.kocha = kocha
+#         self.mahalla = mahalla
+#         self.tuman = tuman
 # #         self.viloyat = viloyat
 # #
 # #     def chiqar(self):
