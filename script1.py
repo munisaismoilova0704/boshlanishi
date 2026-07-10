@@ -29,26 +29,31 @@
 # avto.korsat()
 
 
-def chipta():
+# def chipta():
+#     while True:
+#         yosh = input("Yoshingiz: ")
+#
+#         if yosh == "exit" or yosh == "quit":
+#             return
+#
+#         yosh = int(yosh)
+#
+#         if yosh < 7:
+#             print("2000 so'm")
+#         elif yosh < 18:
+#             print("3000 so'm")
+#         elif yosh < 65:
+#             print("10000 so'm")
+#         else:
+#             print("Bepul")
+
+
+def kitob():
     while True:
-        yosh = input("Yoshingiz: ")
-
-        if yosh == "exit" or yosh == "quit":
+        nom = input("Kitob nomi: ")
+        if nom == "stop":
             return
-
-        yosh = int(yosh)
-
-        if yosh < 7:
-            print("2000 so'm")
-        elif yosh < 18:
-            print("3000 so'm")
-        elif yosh < 65:
-            print("10000 so'm")
-        else:
-            print("Bepul")
-
-
-
+        print(nom)
 
 
 
