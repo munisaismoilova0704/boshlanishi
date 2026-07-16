@@ -877,27 +877,27 @@ print(w.bir())
 
 
 
-# class Salom:
-#     matn = "Hello World!"
-#
-#     def chiqar(self):
-#         print(Salom.matn)
-#
-# Salom.chiqar()
-#
-#
-# class Xabar:
-#     xabar = "Bugun havo yaxshi."
-#
-#     def chiqar(self):
-#         print(Xabar.xabar)
-#
-#         Xabar.xabar = "Yangi xabar."
-#         print(Xabar.xabar)
-#
-# Xabar.chiqar()
-#
-#
+class Salom:
+    matn = "Hello World!"
+
+    def chiqar(self):
+        print(Salom.matn)
+
+Salom.chiqar()
+
+
+class Xabar:
+    xabar = "Bugun havo yaxshi."
+
+    def chiqar(self):
+        print(Xabar.xabar)
+
+        Xabar.xabar = "Yangi xabar."
+        print(Xabar.xabar)
+
+Xabar.chiqar()
+
+
 # class Misol:
 #     class_ = "Python"
 #

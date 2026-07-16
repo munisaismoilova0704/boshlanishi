@@ -185,68 +185,79 @@
 
 
 
-class Student:
-    def __init__(self, ism, yosh, kurs):
-        self.ism = ism
-        self.yosh = yosh
-        self.kurs = kurs
+# class Student:
+#     def __init__(self, ism, yosh, kurs):
+#         self.ism = ism
+#         self.yosh = yosh
+#         self.kurs = kurs
+#
+# student1 = Student(input("Ism: "), input("Yosh: "), input("Kurs: "))
+# student2 = Student(input("Ism: "), input("Yosh: "), input("Kurs: "))
+#
+# print(student1.ism, student1.yosh, student1.kurs)
+# print(student2.ism, student2.yosh, student2.kurs)
+#
+#
+# class Book:
+#     def __init__(self, nomi, muallifi, sahifa):
+#         self.nomi = nomi
+#         self.muallifi = muallifi
+#         self.sahifa = sahifa
+#
+# book1 = Book(input("Nomi: "), input("Muallifi: "), input("Sahifa: "))
+# book2 = Book(input("Nomi: "), input("Muallifi: "), input("Sahifa: "))
+#
+# print(book1.nomi, book1.muallifi, book1.sahifa)
+# print(book2.nomi, book2.muallifi, book2.sahifa)
+#
+#
+#
+#
+# class House:
+#     def __init__(self, manzil, xona, narx):
+#         self.manzil = manzil
+#         self.xona = xona
+#         self.narx = narx
+#
+# house1 = House(input("Manzil: "), input("Xona: "), input("Narx: "))
+# house2 = House(input("Manzil: "), input("Xona: "), input("Narx: "))
+#
+# print(house1.manzil, house1.xona, house1.narx)
+# print(house2.manzil, house2.xona, house2.narx)
+#
+#
+# class Restaurant:
+#     def __init__(self, nomi, taom_turi, vaqt):
+#         self.nomi = nomi
+#         self.taom_turi = taom_turi
+#         self.vaqt = vaqt
+#
+# rest1 = Restaurant(input("Nomi: "), input("Taom turi: "), input("Ochilish vaqti: "))
+# rest2 = Restaurant(input("Nomi: "), input("Taom turi: "), input("Ochilish vaqti: "))
+#
+# print(rest1.nomi, rest1.taom_turi)
+# print(rest2.nomi, rest2.taom_turi)
+#
+#
+class Salom:
+    matn = "Hello World!"
 
-student1 = Student(input("Ism: "), input("Yosh: "), input("Kurs: "))
-student2 = Student(input("Ism: "), input("Yosh: "), input("Kurs: "))
+    def chiqar(self):
+        print(Salom.matn)
 
-print(student1.ism, student1.yosh, student1.kurs)
-print(student2.ism, student2.yosh, student2.kurs)
-
-
-class Book:
-    def __init__(self, nomi, muallifi, sahifa):
-        self.nomi = nomi
-        self.muallifi = muallifi
-        self.sahifa = sahifa
-
-book1 = Book(input("Nomi: "), input("Muallifi: "), input("Sahifa: "))
-book2 = Book(input("Nomi: "), input("Muallifi: "), input("Sahifa: "))
-
-print(book1.nomi, book1.muallifi, book1.sahifa)
-print(book2.nomi, book2.muallifi, book2.sahifa)
+Salom.chiqar()
 
 
+class Xabar:
+    xabar = "Bugun havo yaxshi."
 
+    def chiqar(self):
+        print(Xabar.xabar)
 
-class House:
-    def __init__(self, manzil, xona, narx):
-        self.manzil = manzil
-        self.xona = xona
-        self.narx = narx
+        Xabar.xabar = "Yangi xabar."
+        print(Xabar.xabar)
 
-house1 = House(input("Manzil: "), input("Xona: "), input("Narx: "))
-house2 = House(input("Manzil: "), input("Xona: "), input("Narx: "))
-
-print(house1.manzil, house1.xona, house1.narx)
-print(house2.manzil, house2.xona, house2.narx)
-
-
-class Restaurant:
-    def __init__(self, nomi, taom_turi, vaqt):
-        self.nomi = nomi
-        self.taom_turi = taom_turi
-        self.vaqt = vaqt
-
-rest1 = Restaurant(input("Nomi: "), input("Taom turi: "), input("Ochilish vaqti: "))
-rest2 = Restaurant(input("Nomi: "), input("Taom turi: "), input("Ochilish vaqti: "))
-
-print(rest1.nomi, rest1.taom_turi)
-print(rest2.nomi, rest2.taom_turi)
-
-
-
-
-
-
-
-
-
-
+Xabar.chiqar()
 
 
 
